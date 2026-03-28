@@ -1,4 +1,4 @@
-//###########################################################################
+
 #include "DSP28x_Project.h"
 #include "HK_all_include.h"
 
@@ -75,6 +75,7 @@ void main(void)
 
     while(1) 
     {
+        DELAY_US(100);
     }
 }
 
@@ -111,3 +112,4 @@ void InitBeep()
 void scanKey(void)
 {
 }
+//这是一行备注
